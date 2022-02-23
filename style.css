@@ -1,0 +1,78 @@
+
+
+body {
+    background-color: rgb(219, 212, 212);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+    row-gap: 30px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 16px;
+    color:rgb(65, 69, 88);
+    font-weight: bolder;
+
+}
+
+.instruction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5px;
+    color:rgb(30, 32, 43);
+}
+
+
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around ;
+    align-items: center;
+}
+
+section div {
+    border: solid rgb(129, 125, 125) 2px;
+    border-radius: 20px;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    width: 175px;
+    height: 38px;
+    border-radius: 7px;
+    background-color:rgb(214, 218, 235);
+    font-style: italic;
+    font-size: 20px;
+    padding: 5px;
+}
+
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:rgb(22, 25, 37);
+    font-style: italic;
+    font-weight: bold;
+
+}
+
